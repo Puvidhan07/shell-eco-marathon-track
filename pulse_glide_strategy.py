@@ -86,10 +86,10 @@ def evaluate_strategy(distance_m, slope, is_curve, v_avg_target=25.05, v_pulse_s
     Supports either single values or per-lap list of parameters.
     """
     # Physics parameters
-    mass = 80.0              # Assumed kg
+    mass = 140.0              # Assumed kg
     efficiency = 0.30         # 30%
-    Cd = 0.1              
-    A = 0.1                # m^2
+    Cd = 0.18              
+    A = 0.37                # m^2
     Crr = 0.007
     
 
