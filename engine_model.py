@@ -2,7 +2,8 @@ import numpy as np
 
 # Engine parameters
 VOLUME_DISPLACEMENT = 99e-6 # 99cc
-GEAR_RATIO = 12
+GEAR_RATIO = 11.7
+
 WHEEL_RADIUS = 0.2921 # meters (approximate for track 2 tires)
 LHV_PETROL = 44.0e6 # J/kg (Lower Heating Value)
 RHO_PETROL = 0.74   # g/mL (used in main script as 0.74)
